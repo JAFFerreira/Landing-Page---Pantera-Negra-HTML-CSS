@@ -1,0 +1,89 @@
+body{
+    background-image: url('../img/BG.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: hidden;
+    padding: 50px;
+}
+
+header{
+    display: flex;  
+    justify-content: end; /*esse carinha, como tinha falado pra vc, organiza os elementos de forma horizontal, ou seja se eu quero no meio, coloco center, se quero no começo, start, se quero no final, end, entendeu? sim, não deleta não deixa isso de comentario, assim vou treinar mais vezes kk*/ 
+    align-items: center;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: right;
+    
+}
+
+
+nav{
+    
+    justify-content: space-around;
+    font-size: 30px;
+    
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    right: 0; 
+    padding: 10px;
+    
+    
+
+}
+
+h1{
+    color: white;
+    font-size: 190px; 
+    font-family: 'arial';
+    margin: 0;
+        
+}
+
+h2{
+    color: red;
+    font-family:'Times New Roman', Times, serif; 
+    font-size: 100px;
+    margin: 0;
+    
+
+}
+
+h3{
+    color: white;
+    font-size: 40px;
+    margin: 0; 
+}
+
+h4{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 500px; 
+}
+
+.overlay{
+    height: 200px;
+    width: 600px;
+    margin-bottom: 110px ; 
+}
+
+.button{
+    height: 80px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 1.5rem;
+    font-weight: 200;
+    border-radius: 10px;
+    background-color:#E62721;
+    margin-top: 30px;
+
+}
